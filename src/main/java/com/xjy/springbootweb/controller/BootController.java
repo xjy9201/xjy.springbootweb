@@ -30,6 +30,7 @@ public class BootController {
         prods.add(new Products("banana",20,200));
         prods.add(new Products("orange",30,300));
         thymeleafMap.put("prods",prods);
+        System.out.println("Test Git and GitHub");
         return "thymeleaf01"; //跳转到templates下的thymeleaf01.html
     }
 }
